@@ -1,6 +1,7 @@
 # Deploy-a-WordPress-Website-on-AWS
 This is how I deploy my wordpress website on AWS based on tutorials provided by **Azeez Salu**.
 ### Lecture 1: Build a Three-Tier AWS Network VPC from Scratch
+![flow chart1](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/1668984056393.png)
 - Create VPC
 - Edit DNS hostnames
 - Attatch Internet Gateway to VPC
