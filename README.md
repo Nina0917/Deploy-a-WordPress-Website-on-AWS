@@ -12,6 +12,7 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Add subnet associations to the public route table. So it connects with the two public subnets.
 - Create 4 private subnets
 - Check main route table (default route table, created automatically). See if the four private subnets are associated with it.
+
 ### Lecture 2: Create Nat Gateways
 ![flow chart2](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/picture2.jpg)
 - Create NAT Gateway in Public Subnet AZ1
@@ -23,3 +24,4 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Add routes to this route table, the target of this route table should be the **second** NAT Gateway that we just created
 - Add subnet associations to the second route table we just created. So it connects with the two private subnets that reside in Availability Zone 2.
 
+### Lecture 3: Create the Security Groups
