@@ -13,6 +13,7 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Create 4 private subnets
 - Check main route table (default route table, created automatically). See if the four private subnets are associated with it.
 ### Lecture 2: Create Nat Gateways
+![flow chart2](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/picture2.jpg)
 - Create NAT Gateway in Public Subnet AZ1
 - Create Private Route table AZ1
 - Add routes to this route table, the target of this route table should be the NAT Gateway that we just created
