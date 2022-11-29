@@ -30,4 +30,5 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Create Webserver Security Group (Port = 80 and 443, Source = ALB Security Group. Port = 22, Source = SSH Security Group)
 - Create Database Security Group (Port = 3306, Source = Webserver Security Group)
 - Create EFS Security Group for EFS File System
+
 [Security group rules for different use cases](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html)
