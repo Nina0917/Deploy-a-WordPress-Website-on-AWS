@@ -38,3 +38,8 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Before creating RDS database, first we need to create DB subnet group.
 - Create database instance using RDS. Record your username and password for the database.
 
+### Lecture 5: Create EFS
+![flow chart5](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/lec5.png)
+- Create an EFS file system
+- During the creation step, remember to set Mount targets in two Private Data Subnets. So the webservers will use the mount
+targets to  connect to the EFS
