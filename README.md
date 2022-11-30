@@ -34,6 +34,7 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 [Security group rules for different use cases](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html)
 
 ### Lecture 4: Create the RDS Instance
+![flow chart4](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/lec4.png)
 - Before creating RDS database, first we need to create DB subnet group.
 - Create database instance using RDS. Record your username and password for the database.
 
