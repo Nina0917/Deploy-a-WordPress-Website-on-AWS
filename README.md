@@ -32,3 +32,8 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Create EFS Security Group for EFS File System
 
 [Security group rules for different use cases](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html)
+
+### Lecture 4: Create the RDS Instance
+- Before creating RDS database, first we need to create DB subnet group.
+- Create database instance using RDS. Record your username and password for the database.
+
