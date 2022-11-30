@@ -43,3 +43,13 @@ This is how I deploy my wordpress website on AWS based on tutorials provided by 
 - Create an EFS file system
 - During the creation step, remember to set Mount targets in two Private Data Subnets. So the webservers will use the mount
 targets to  connect to the EFS
+
+### Lecture 6: Install WordPress
+![flow chart6](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/lec6.png)
+- Launch EC2 instance on Public Subnet AZ1, call it Setup Server. (In the video, the author has created the key pair. If you do not have a key pari yet, you can create one in ppk format. **Don't create the key pair in pem format and converts it to ppk format, that would not work for some reason.**)
+- Use PuTTY to connect to your instance using the key pair.
+- Use Commands to install WordPress step by step
+- Configure the wp-config.php file using your own database information
+- Restart the webserver
+- Enter the IPv4 address of EC2.You should see the WordDress form.
+- Register and login account on WordPress
