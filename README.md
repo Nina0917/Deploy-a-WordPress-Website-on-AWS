@@ -62,3 +62,11 @@ targets to  connect to the EFS
 - Create load balancer and name it Dev-ALB, mapping it to Public Subnet AZ1 and Public Subnet AZ2.
 - Copy the DNS name of the Application Load Balancer. Login in the WordPress Dashboard, change the WordPress Address and Site Address.
 - Terminate the setup server
+
+### Lecture 8: Register a New Domain Name in Route 53
+- Enter the Route 53 Dashboard, type the domain name and check its availability
+- Purchase the domain name
+
+### Lecture 9: Create a Record Set in Route 53
+- Enter Route 53 Dashboard. Under the hosted zones, create the record
+- Login in WordPress using the newly created record name, and change the URL
