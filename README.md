@@ -70,3 +70,9 @@ targets to  connect to the EFS
 ### Lecture 9: Create a Record Set in Route 53
 - Enter Route 53 Dashboard. Under the hosted zones, create the record
 - Login in WordPress using the newly created record name, and change the URL
+
+### Lecture 10: Register for an SSL Certificate in AWS Certificate Manager
+- Create the public certificate.
+- Create records in Route 53 for the certificate.
+
+### Lecture 11: SSH into Instance in the Private Subnet
