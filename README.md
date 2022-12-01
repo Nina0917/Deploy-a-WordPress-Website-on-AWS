@@ -53,3 +53,12 @@ targets to  connect to the EFS
 - Restart the webserver
 - Enter the IPv4 address of EC2.You should see the WordDress form.
 - Register and login account on WordPress
+
+### Lecture 7: Create an Application Load Balancer
+![flow chart7](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/lec7.png)
+- Launch a EC2 instance on Private App Subnet AZ1. Enter [User Data](https://github.com/azeezsalu/wordpress-project-commands/blob/abaada4048b599a9b8d71f867f447a2304d9e385/8.%20Create%20an%20Application%20Load%20Balancer.txt). Make changes to the command about EFS. Call this instance Webserver AZ1.
+- Launch a same EC2 instance on Private App Subnet AZ2. Call it Webserver AZ2.
+- Create target group and name it Dev-TG. Register your target with Webserver AZ1 and Webserver AZ2.
+- Create load balancer and name it Dev-ALB, mapping it to Public Subnet AZ1 and Public Subnet AZ2.
+- Copy the DNS name of the Application Load Balancer. Login in the WordPress Dashboard, change the WordPress Address and Site Address.
+- Terminate the setup server
