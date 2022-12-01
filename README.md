@@ -76,3 +76,8 @@ targets to  connect to the EFS
 - Create records in Route 53 for the certificate.
 
 ### Lecture 11: SSH into Instance in the Private Subnet
+![flow chart11](https://github.com/Nina0917/Deploy-a-WordPress-Website-on-AWS/blob/main/lec11.png)
+- Launch an EC2 instance in the public subnet AZ1, call it Bastion Host
+- Download Pageant. Add your key pair to the pageant.
+- Connect to the instance using Putty
+- Access to other private subnet instance using ssh
