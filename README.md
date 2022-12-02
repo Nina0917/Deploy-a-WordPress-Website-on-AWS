@@ -88,3 +88,8 @@ targets to  connect to the EFS
 - Connect to the Webserver AZ1 using SSH (what we learned in last lecture)。 Edit wp-config.php
 - Check if the WordPress website is secure to connect or not
 - Add wp-admin to the end of the domain name to enter the dashboard and change the URL
+
+### Lecture 13: Create an Auto Scaling Group
+- Terminate Webserver AZ1 and Webserver AZ2
+- Create launch templates
+- Create the auto scaling group
