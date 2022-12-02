@@ -81,3 +81,10 @@ targets to  connect to the EFS
 - Download Pageant. Add your key pair to the pageant.
 - Connect to the instance using Putty
 - Access to other private subnet instance using ssh
+
+### Lecture 12: Create an HTTPS Listener for the Application Load Balancer
+- Find your current load balancer, and add listener
+- Edit the listener of port 80. Redirect HTTP traffic to HTTPS.
+- Connect to the Webserver AZ1 using SSH (what we learned in last lecture)。 Edit wp-config.php
+- Check if the WordPress website is secure to connect or not
+- Add wp-admin to the end of the domain name to enter the dashboard and change the URL
